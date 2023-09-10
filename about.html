@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+background-image:url('https://media.istockphoto.com/id/1202433567/vector/blue-sky-with-cloud-watercolor-background.jpg?s=612x612&w=0&k=20&c=narbZZ3-_uDn1CzPJmzZ5nfEZm2FPIt6JgSahm7OvMU=');
+}
+            .boxes {
+           border: 3px solid transparent;
+           display: flex;
+           height: 707px;
+           width: 1459px;
+           color: black;
+            }
+            .left {
+                border: 2px solid transparent;
+                justify-self: end; 
+                width: 1000px;
+    
+            }
+            .middle {
+                border: 2px solid black;
+                width: 10px;
+                height: 650px ;
+                margin:  10px 20px ;
+                background-color: black ;
+            } 
+            .right {
+                border: 2px rgb(214, 86, 27);
+                width:1000px ;
+            }
+        p {
+            font-family: cursive;
+            font-size: 25px;
+
+        }
+        h1{
+        width:  max-content;
+        font-size: 35px;
+        position: relative;
+        cursor: pointer;
+        margin: 15px auto;
+      }
+      h1::after{
+        content: "";
+        position: absolute; 
+        bottom: -5px;
+        height: 4px;
+        width: 100%;
+        left:0;
+        background-color: black;
+        transition:0.3s;
+        transition-timing-function: ease-in-out ;
+        transform:scaleX(0) ;  
+      }
+      h1::after{
+        transform: scaleX(1);
+      }
+    
+            </style>
+        
+    </head>
+    <body>
+        <div class="boxes">
+            <div class="left">
+                <h1>ABOUT</h1>
+                <p>For the past 28 years, DEVISCREENS has been at the forefront of the wedding cards business in Guntur, Andhra Pradesh, with a legacy of innovative solutions. <br> <br>
+
+                    At deviscreens, we pride ourselves on being your one-stop destination for all your wedding needs. Our ultimate aim is to deliver products of the highest quality at the most competitive cost, ensuring that your purchasing experience with us elevates your wedding preparations to the next level.<br><br>
+                    We are continuously expanding our product offerings, sourcing new varieties of goods and medals from bustling cities like Bombay, Delhi, and Mumbai. Our showroom boasts an extensive collection of different types of medals and stylish wedding cards, giving you the opportunity to select and customize the perfect invitation for your special day.</p>
+            </div>
+            <div class="middle"></div>
+            <div class="right">
+                <h1>CUSTOMERS</h1>
+                <p> Customer satisfaction is our top priority, and we are committed to meeting and exceeding their needs. Our wide range of printing services includes screen printing, cup printing, tiles printing, banner printing, printing on jute bags, printing on medals, and much more. <br> <br>
+                    We understand that marriage is one of the most cherished moments in life, and we wholeheartedly wish to make your moments the best they can be.<br> <br> Trust in DEVISCREENS to create memorable wedding cards that reflect the uniqueness of your love story and add an extra touch of elegance to your big day.
+
+Visit our showroom today, and let us be a part of your journey towards crafting beautiful memories that will last a lifetime.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
